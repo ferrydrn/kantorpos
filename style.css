@@ -1,0 +1,24 @@
+section {
+  padding-top: 3rem;
+}
+
+.carousel-item {
+  padding-top: 0rem;
+  height: 100vh;
+  min-height: 10px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+}
